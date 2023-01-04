@@ -1,80 +1,45 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Room Renting - Landlord
+description: Tenant management tool for landlord
 img: assets/img/12.jpg
 importance: 1
-category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Room Renting Landlord is a Progressive Web App for first time landlords. The goal of the platform is to centralize landlord - tenant communication to a single application instead of the current practice of switching back and forth between email, text and some other communcation platform. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The app was originally written in Android as a Proof of Concept and has migrated to Flutter. This app is deployed as a Progressive Web Application but can become an iOS, Android, MacOS, Windows or Linux application.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Try it for yourself at [landlord.roomrenting.ca](https://landlord.roomrenting.ca)
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RoomRentingLandlord_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RoomRentingLandlord_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RoomRentingLandlord_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+### Creating and Sharing Documents
+Users enter their data to fill in the requierd fields for the document they are creating. Once completed the app will automatically fill in common presets and generate the document in the backend. Once completed the backend will send a notification the the user notifying a new revision has been created. To change the data they can update the individual pages and create a new revision. Landlords and Tenants can both sign documents through the app as well.
+
+### Recieving Maintenance Tickets
+Tenants use the tenant version of the app to take pictures of maintenance issues, attach a breif description and report the issue to their landlord. The landlord can then view the report and talk back and forth on the issue. The landlord can use this comment section to keep communcation organized to a specific issue, schedule time to fix the issue with the tenant and add references to the lease agreement if the ticket is invalid. 
+
+### Sending and Recieving Notifications
+The landlord can receive notifications for new document revisions, when tenants create an account, when tenants sign the lease and new maintenance tickets. Landlords can also create a notification to send to tenants providing a one way communication channel to imform tenants.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
+
+
+
+
