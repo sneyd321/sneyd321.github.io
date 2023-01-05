@@ -28,6 +28,3 @@ In the service layer each service is a REST interface for resources that exist i
 
 ### Infrastructure Layer
 The infrastructure layer is where the IaaS cloud resources are. In the context of Room Renting this is two Compute Engine VMs; one running a MySQL container and the other a Redis container and a Google Kubernetes Engine Autopilot Cluster. 
-
-
-

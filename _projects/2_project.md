@@ -28,7 +28,7 @@ Try it for yourself at [tenant.roomrenting.ca](https://tenant.roomrenting.ca)
 A tenant can use their smartphone camera to take a picture of maintenance issues in the rental unit and report it to their landlord. The app has a built in real time messaging system to provide a more resposive user expereince than email or text. This messaging system can be used to provide more context to the problem, schedule a time to fix the issue, add new photos and write references to the lease agreement to settle disputes. 
 
 ### Recieve Notifications
-Tenants have a notification feed that they can recieve notifications from the app and their landlord. The app can update tenants if the maintenance ticket was uploaded successfullyor if the landlord made an update to the lease. The landlord can send custom notifications to inform the tenant of 24 hours noticie or any other message they would like to send.
+Tenants have a notification feed that they can recieve notifications from the app and their landlord. The app can update tenants when the maintenance ticket was uploaded successfully and when the landlord made an update to the lease. The tenant can also receive custom notifications to be informed about 24 hours noticie or any other message their landlord would like to send.
 
 ### Sign Lease
 Tenants can access the lease from the app at any time. If they would like to sign the lease they can also do that in the app by dragging the finger or stylus on the signature pad.
