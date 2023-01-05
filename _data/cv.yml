@@ -17,13 +17,13 @@
   contents:
     - title: Honours Bachelor of Computer Science (Mobile Computing)
       institution: Sheridan College
-      year: 2019
+      year: 2015 - 2019
      
 - title: Experience
   type: time_table
   contents:
-    - title: Full Stack Developer, Oakville, Ontario
-      institution: Room Renting
+    - title: Full Stack Developer
+      institution: Room Renting, Oakville, Ontario
       year: Aug 2022 - Present
       description:
         - Developed continuous integration scripts using GitHub Actions to automate database schema migrations, execution of tests with Docker Compose, deployments to Google Cloud Run and provisioning of COS VM’s for MySQL and Redis.
